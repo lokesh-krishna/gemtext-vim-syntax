@@ -26,13 +26,13 @@ syn match listStart /^*/
 syn match quoteLine /^>.*/
 
 " highlight definitions
-hi def link preformattedText MoonflyGrey247
-hi def link headingStart MoonflyPurple
-hi def link headingTitle MoonflyBlue
-hi def link linkStart MoonflyEmerald
-hi def link linkURL MoonflyGreen
-hi def link linkTitle MoonflySky
-hi def link listStart MoonflyPurple
-hi def link quoteLine MoonflyItalics
+hi def link preformattedText markdownCode
+hi def link headingStart Character
+hi def link headingTitle htmlTagN
+hi def link linkStart htmlTag
+hi def link linkURL htmlLink
+hi def link linkTitle htmlTagN
+hi def link listStart Character
+hi def link quoteLine markdownItalic
 
 let b:current_syntax = "gemtext"
