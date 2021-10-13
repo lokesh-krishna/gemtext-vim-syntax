@@ -1,2 +1,2 @@
-# gemini-nvim-syntax
+# gemtext-vim-syntax
 Syntax highlighting for gemtext
